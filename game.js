@@ -90,3 +90,11 @@ function letsPlay(funcion1, funcion2){
     total.innerHTML = `It's a TIE!!! Try again.`
   }
 }
+
+function go(){
+  var cpuC2, human2
+  letsPlay(cpuChoise(cpuC2), humanchoos(human2))
+}
+
+var but = document.getElementById('play')
+but.addEventListener('click', go);
