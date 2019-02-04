@@ -48,9 +48,8 @@ function letsPlay(funcion1, funcion2){
   var tie = 0
   var hres = 0
   var cres = 0
-  var i = 1
 
-  while(round < 3){
+  while(round < 4){
     round++
     var c = cpuChoise(c)
     var o = humanchoos(o)
