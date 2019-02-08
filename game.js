@@ -15,7 +15,7 @@ function cpuChoise(choise){
 function humanchoos(t){
   var h = 0
   do{
-    var t = window.prompt('Tipe your choise').toLowerCase()
+    var t = window.prompt('Tipe Rock, Paper or Scissors').toLowerCase()
 
     switch (t) {
       case 'rock':{
@@ -49,7 +49,7 @@ function letsPlay(funcion1, funcion2){
   var hres = 0
   var cres = 0
 
-  while(round < 4){
+  while(round < 5){
     round++
     var c = cpuChoise(c)
     var o = humanchoos(o)
