@@ -4,12 +4,13 @@ body {
 }
 
 .human {
-  align: left;
   height: 250px;
   width: 400px;
   position: absolute;
   left: 0%;
-  top:0%;
+  top:-2.5%;
+  z-index: -1; /* hide shadow behind image */
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
 
 .htext {
@@ -17,23 +18,39 @@ body {
   left: 12%;
 }
 
-.hcimag {
-  height: 250px;
-  width: 400px;
-  position: relative;
-  opacity: 0.2;
-}
-
 .cpu {
-  align: right;
   height: 250px;
   width: 400px;
   position: absolute;
   right: 0%;
-  top:0%;
+  top:-2.5%;
+  z-index: -1; /* hide shadow behind image */
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+
 }
 
 .ctext {
   position: fixed;
   right: 12%;
+}
+
+.tv {
+  height: 195px;
+  width: 400px;
+  background: #0000005e;
+  position: relative;
+  margin: auto;
+}
+
+.imgtv {
+  height: 235px;
+  width: 400px;
+  position: relative;
+}
+
+.hcimag {
+  height: 235px;
+  width: 400px;
+  position: relative;
+  opacity: 0.04;
 }
