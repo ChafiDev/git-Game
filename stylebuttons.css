@@ -1,0 +1,39 @@
+body {
+  background-image: url("fondo2.jpg");
+  font-family: Orbitron;
+}
+
+.human {
+  align: left;
+  height: 250px;
+  width: 400px;
+  position: absolute;
+  left: 0%;
+  top:0%;
+}
+
+.htext {
+  position: fixed;
+  left: 12%;
+}
+
+.hcimag {
+  height: 250px;
+  width: 400px;
+  position: relative;
+  opacity: 0.2;
+}
+
+.cpu {
+  align: right;
+  height: 250px;
+  width: 400px;
+  position: absolute;
+  right: 0%;
+  top:0%;
+}
+
+.ctext {
+  position: fixed;
+  right: 12%;
+}
